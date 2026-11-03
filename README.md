@@ -12,8 +12,8 @@ servos, one per leg.
 
 - **First build (pictured):** a Pololu Mini Maestro servo controller powered by
   a 3.7 V LiPo battery.
-- **Later builds:** an ESP32-C3 (programmed with Arduino) and a DC-DC step-up
-  converter for 5 V operation.
+- **Later builds:** an Arduino Pro Micro running the sketches in this
+  repository, with a DC-DC step-up converter for 5 V operation.
 
 | Sketch | Gait |
 |---|---|
