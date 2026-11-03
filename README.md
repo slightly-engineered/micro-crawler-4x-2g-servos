@@ -3,6 +3,18 @@
 A tiny four-legged crawler with one 2 g micro servo per leg, driven by an
 Arduino Pro Micro.
 
+![First micro crawler build: four 2 g servo legs under a stacked Pololu Mini Maestro servo controller and LiPo battery, with a wire antenna](docs/images/first-build-maestro.png)
+
+## Builds
+
+I've built several of these crawlers. All of them use the same four 2 g micro
+servos, one per leg.
+
+- **First build (pictured):** a Pololu Mini Maestro servo controller powered by
+  a 3.7 V LiPo battery.
+- **Later builds:** an Arduino Pro Micro running the sketches in this
+  repository.
+
 | Sketch | Gait |
 |---|---|
 | `quad_crawl_test/` | Diagonal-pair crawl: each diagonal pair lifts fast and plants slowly while the other pair supports the body |
